@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <h1 class="logo">Dream Destinations Travel</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h2>Explore the World with Us</h2>
+        <p>Your adventure starts here. Discover the most beautiful places and book your dream vacation.</p>
+        <a href="#destinations" class="btn">Explore Destinations</a>
+    </section>
+
+    <!-- Destinations Section -->
+    <section id="destinations">
+        <h2>Popular Destinations</h2>
+        <div class="destination-grid">
+            <div class="destination">
+                <img src="harihar_fort.jpg" alt="Mharastra" height="700px">
+                <h3>Maharashtra – Harshewadi, Igatpuri ,India</h3>
+                <p>Harihara (Sanskrit: हरिहर) is the dual representation of the Hindu deities Vishnu (Hari) and Shiva (Hara)..</p>
+            </div>
+            <div class="destination">
+                <img src="jaisalmer.jpg" alt="jaisalmer" height="700px">
+                <h3>jaisalmer,rajasthan,India</h3>
+                <p>The city is often referred to as the Golden City. Jaisalmer has one of the most beautiful structures in Rajasthan, the Jaisalmer Fort.</p>
+            </div>
+            <div class="destination">
+                <img src="mehranghar_fort.jpg" alt="mehranghar_fort" height="700px">
+                <h3>Jodhpur, India</h3>
+                <p>The fort was named Mehrangarh, meaning 'fort of the sun' – a reference to the clan's mythical descent from the sun god Surya.</p>
+            </div>
+            <!-- Add more destinations as needed -->
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a travel agency dedicated to providing the best travel experiences. From exotic destinations to personalized travel plans, we ensure that your journey is unforgettable.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <div class="service">
+                <h3>Flight Booking</h3>
+                <p>We offer the best deals on flights to all your favorite destinations.</p>
+            </div>
+            <div class="service">
+                <h3>Hotel Reservations</h3>
+                <p>Stay at the best hotels with top-notch amenities.</p>
+            </div>
+            <div class="service">
+                <h3>Custom Itineraries</h3>
+                <p>Get personalized travel plans tailored to your interests.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Dream Destinations Travel. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
